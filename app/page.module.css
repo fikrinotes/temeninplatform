@@ -383,7 +383,13 @@
   /* CTA strip stacks */
   .ctaInner {
     flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
     text-align: center;
+  }
+  .ctaText {
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -402,7 +408,7 @@
 
   .heroCtas {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
   }
 
   .about {
