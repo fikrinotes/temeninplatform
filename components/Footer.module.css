@@ -1,0 +1,162 @@
+/* ============================================
+   FOOTER — Temen.in
+   Dark charcoal #393E46
+   Poppins font
+   Logo box: teal, NO border-radius (sharp corners)
+   Tagline: italic
+   ============================================ */
+
+.footer {
+  background: #393E46;
+  padding-top: 3.5rem;
+}
+
+/* ===== INNER LAYOUT ===== */
+.inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* ===== BRAND (left) ===== */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Teal rectangle — SHARP corners, NOT rounded */
+.logoBox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #00ADB5;
+  padding: 0 2rem 0 0;
+  border-radius: 0;
+  /* NO border-radius per user request */
+  width: fit-content;
+}
+
+.logoImg {
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  /* Dark charcoal text on teal background per user request */
+  color: #393E46;
+  letter-spacing: -0.01em;
+}
+
+/* Italic tagline below logo box */
+.tagline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  /* ITALIC per user request */
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  padding-left: 0.25rem;
+}
+
+/* ===== LINKS (right) ===== */
+.links {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+.linkCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: #00ADB5;
+}
+
+/* ===== SOCIAL ===== */
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 0;
+}
+
+.igLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+  transition: color 0.2s ease;
+  margin-top: 1.5rem;
+}
+
+.igLink:hover {
+  color: #00ADB5;
+  text-decoration-color: #00ADB5;
+}
+
+/* ===== BOTTOM BAR ===== */
+.bottomBar {
+  border-top: none;
+  padding: 1.25rem 0;
+}
+
+.bottomBar p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 900px) {
+  .inner {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .links {
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    margin-top: 0;
+  }
+
+  .igLink {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

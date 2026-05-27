@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "judul": "UTS Analisis Data",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Data",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/176101QjBtrXEsgpfac40pbT2LlZKXbss/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 2,
+    "judul": "UTS Fisika Dasar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Fisika Dasar",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1yckhs0niNOCHLxtdU0F43zIznpjhlMnR/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 3,
+    "judul": "UTS Kalkulus I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus I",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1iYM4J_1k9yVbHOXvVakz0euFft_DhKdM/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 4,
+    "judul": "UTS Kimia Dasar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kimia Dasar",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/19HZlbQZvR3Bv41ikpYwKhrSzODs1IXGl/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 5,
+    "judul": "UTS Pengantar Matematika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Matematika",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1CRPJJIxuBvpq9RDXN_RgAMoEzuo-O8Zh/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 6,
+    "judul": "UTS Fungsi Kompleks 1",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Fungsi Kompleks 1",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1mRic-6ZaBtZJnNOam1UwypCmtCYPIAa4/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 7,
+    "judul": "UTS Kalkulus III",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus III",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1VNQmWm3rDwE0Lsh3ZCYorH7DlePcaLNS/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 8,
+    "judul": "UTS Persamaan Diferensial Biasa",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Persamaan Diferensial Biasa",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1sQr3oIupRgH0dZZHhcMt2WKIfEYP94Pb/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 9,
+    "judul": "UTS Program Linier",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Program Linier",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1bM01PsR-DUE2EfefyNTyG00cr3ItU5Pr/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 10,
+    "judul": "UTS Aljabar Linier",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aljabar Linier",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1s1zg8OYwMPoq8MFXutuVle5ohLCHhLSx/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 11,
+    "judul": "UTS Analisis Riil 2",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Riil 2",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1Zl-IUHr6ROc_8v8KBYmE-HCEBSMy1Fqm/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  }
+]

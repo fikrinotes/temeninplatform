@@ -1,0 +1,285 @@
+/* ============================================
+   PAGE HEADER
+   ============================================ */
+.page {
+  min-height: 80vh;
+  padding-bottom: 5rem;
+}
+
+.pageHeader {
+  background: #393E46;
+  padding: 3rem 1.5rem 3.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pageHeader::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  background: radial-gradient(ellipse at 80% 50%, rgba(0, 173, 181, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.pageHeaderInner {
+  position: relative;
+  z-index: 1;
+}
+
+.pageTitle {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  color: var(--white);
+  margin: 0.75rem 0 0.75rem;
+}
+
+.pageDesc {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6);
+  max-width: 500px;
+  line-height: 1.7;
+}
+
+/* ============================================
+   CONTENT LAYOUT
+   ============================================ */
+.content {
+  padding: 3rem 0;
+  max-width: 860px;
+}
+
+/* ============================================
+   CALC SECTION
+   ============================================ */
+.calcSection {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.sectionIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sectionTitle {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.2rem;
+}
+
+.sectionDesc {
+  font-size: 0.875rem;
+  color: var(--gray);
+}
+
+/* ============================================
+   TABLE / ROWS (Fitur 1)
+   ============================================ */
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 130px 80px 80px 44px;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--gray-light);
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding-left: 2.75rem;
+}
+
+.rowList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 28px 1fr 130px 80px 80px 44px;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.4rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.2s ease;
+}
+
+.row:hover {
+  border-color: var(--teal-light);
+}
+
+.rowNum {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-2);
+  text-align: center;
+  font-family: var(--font-heading);
+}
+
+.colMataKuliah { grid-column: auto; }
+.colNilai { width: 130px; flex-shrink: 0; }
+.colSks   { width: 80px; flex-shrink: 0; }
+.colBobot { width: 80px; flex-shrink: 0; }
+.colAction { width: 44px; flex-shrink: 0; }
+
+.bobotDisplay {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-align: center;
+  padding: 0.4rem;
+}
+
+/* ============================================
+   ADD ROW BUTTON
+   ============================================ */
+.addRowBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  background: rgba(0,173,181,0.08);
+  color: var(--teal-dark);
+  border: 1.5px dashed var(--teal-light);
+  border-radius: var(--radius-sm);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: var(--transition);
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.addRowBtn:hover {
+  background: rgba(0,173,181,0.14);
+  border-style: solid;
+  transform: none;
+}
+
+/* ============================================
+   ACTIONS
+   ============================================ */
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   CUM LAUDE FORM
+   ============================================ */
+.infoBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(168, 224, 211, 0.3);
+  border: 1px solid rgba(0, 173, 181, 0.25);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--dark-2);
+  line-height: 1.6;
+}
+
+.infoBox strong {
+  color: var(--teal-dark);
+}
+
+.cumLaudForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.fieldHint {
+  font-weight: 400;
+  color: var(--gray-2);
+  font-size: 0.78rem;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+  .tableHeader {
+    display: none;
+  }
+
+  .row {
+    grid-template-columns: 24px 1fr 100px 60px 60px 40px;
+    gap: 0.4rem;
+  }
+
+  .cumLaudForm {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .row {
+    grid-template-columns: 2fr 1fr 1fr 44px;
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .rowNum {
+    display: none;
+  }
+
+  .colMataKuliah {
+    grid-column: 1 / -1;
+    width: 100% !important;
+  }
+
+  .colNilai {
+    width: 100% !important;
+    min-width: 0;
+  }
+
+  .colSks {
+    width: 100% !important;
+    min-width: 0;
+  }
+
+  .colBobot {
+    width: 100% !important;
+    text-align: center;
+    padding: 0.4rem 0;
+  }
+
+  .colAction {
+    width: 44px !important;
+    height: 38px !important;
+    justify-content: center;
+    margin: 0 !important;
+  }
+}
