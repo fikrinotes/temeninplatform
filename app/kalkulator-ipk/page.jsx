@@ -362,7 +362,7 @@ export default function KalkulatorIPKPage() {
               <div className="form-group">
                 <label className="form-label" htmlFor="semester-lewati">
                   Semester yang Sudah Dilewati
-                  <span className={styles.fieldHint}> (semester berapa sekarang)</span>
+                  <span className={styles.fieldHint}> (udah selesai berapa semester?)</span>
                 </label>
                 <select
                   id="semester-lewati"
@@ -423,7 +423,7 @@ export default function KalkulatorIPKPage() {
             {cumLaudResult && (
               <div
                 className={`result-box ${cumLaudResult.error ? 'warning' :
-                    cumLaudResult.status === 'possible' || cumLaudResult.status === 'already_yes' ? 'success' : 'error'
+                  cumLaudResult.status === 'possible' || cumLaudResult.status === 'already_yes' ? 'success' : 'error'
                   }`}
                 id="cumlaud-result"
               >
