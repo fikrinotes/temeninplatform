@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from 'react';
 import bankSoalData from '@/data/bankSoal.json';
-const universitas = [...new Set(bankSoalData.map(d => d.universitas))];
+const universitas = [...new Set(bankSoalData.map(d => d.universitas))].sort();
+const tahunList = [...new Set(bankSoalData.map(d => d.tahun).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
 import SoalCard from '@/components/SoalCard';
 import styles from './page.module.css';
 
@@ -10,6 +11,8 @@ export default function BankSoalPage() {
   const [search, setSearch] = useState('');
   const [filterKategori, setFilterKategori] = useState('Semua');
   const [filterUniv, setFilterUniv] = useState('Semua');
+  const [filterTipe, setFilterTipe] = useState('Semua');
+  const [filterTahun, setFilterTahun] = useState('Semua');
 
   const filtered = useMemo(() => {
     return bankSoalData.filter(soal => {
@@ -19,14 +22,20 @@ export default function BankSoalPage() {
         soal.universitas.toLowerCase().includes(search.toLowerCase());
       const matchKategori = filterKategori === 'Semua' || soal.kategori === filterKategori;
       const matchUniv = filterUniv === 'Semua' || soal.universitas === filterUniv;
-      return matchSearch && matchKategori && matchUniv;
+      const matchTipe = filterTipe === 'Semua' ||
+        (filterTipe === 'UTS' && soal.judul.toLowerCase().includes('uts')) ||
+        (filterTipe === 'UAS' && soal.judul.toLowerCase().includes('uas'));
+      const matchTahun = filterTahun === 'Semua' || soal.tahun === filterTahun;
+      return matchSearch && matchKategori && matchUniv && matchTipe && matchTahun;
     });
-  }, [search, filterKategori, filterUniv]);
+  }, [search, filterKategori, filterUniv, filterTipe, filterTahun]);
 
   const resetFilters = () => {
     setSearch('');
     setFilterKategori('Semua');
     setFilterUniv('Semua');
+    setFilterTipe('Semua');
+    setFilterTahun('Semua');
   };
 
   return (
@@ -130,7 +139,30 @@ export default function BankSoalPage() {
                 ))}
               </select>
 
-              {(search || filterKategori !== 'Semua' || filterUniv !== 'Semua') && (
+              <select
+                className={`form-select ${styles.filterSelect}`}
+                value={filterTipe}
+                onChange={e => setFilterTipe(e.target.value)}
+                id="filter-tipe"
+              >
+                <option value="Semua">Semua Tipe (UTS/UAS)</option>
+                <option value="UTS">UTS</option>
+                <option value="UAS">UAS</option>
+              </select>
+
+              <select
+                className={`form-select ${styles.filterSelect}`}
+                value={filterTahun}
+                onChange={e => setFilterTahun(e.target.value)}
+                id="filter-tahun"
+              >
+                <option value="Semua">Semua Tahun</option>
+                {tahunList.map(t => (
+                  <option key={t} value={t}>{t}</option>
+                ))}
+              </select>
+
+              {(search || filterKategori !== 'Semua' || filterUniv !== 'Semua' || filterTipe !== 'Semua' || filterTahun !== 'Semua') && (
                 <button className="btn btn-outline btn-sm" onClick={resetFilters} id="reset-filter">
                   Reset Filter
                 </button>

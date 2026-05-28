@@ -151,6 +151,21 @@
   },
   {
     "id": 11,
+    "judul": "UTS Kewirausahaan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kewirausahaan",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1895AX4YW944x1vZDGmKDHP3Iu-FDrwOU/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 12,
     "judul": "UTS Analisis Riil 2",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Riil 2",
@@ -159,6 +174,891 @@
     "semester": "Ganjil",
     "jurusan": "Matematika",
     "linkSoal": "https://drive.google.com/file/d/1Zl-IUHr6ROc_8v8KBYmE-HCEBSMy1Fqm/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 13,
+    "judul": "UTS Pemodelan Matematika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pemodelan Matematika",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1KVxvB6MRncysYfdKHmdH52_xi0sxpV3V/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 14,
+    "judul": "UTS Statistika Matematika II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Statistika Matematika II",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1LSRDKVJl8q6jK6lkoeYqiuppSNiCegKY/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 15,
+    "judul": "UTS Algoritma & Struktur Data",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Algoritma & Struktur Data",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1Whseqec42f20VatE5BQJckZQkAxWI3jD/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 16,
+    "judul": "UTS Aplikasi Teori Graf",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aplikasi Teori Graf",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1wVxkJsIxgs6-5ReCoEq3ZK3kLoM-2Lcs/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 17,
+    "judul": "UTS Pengantar Matematika Fuzzy",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Matematika Fuzzy",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1Q4jsidK8qAGbUbtmkh60C6ir-NcT_CmJ/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 18,
+    "judul": "UTS Geometri Euclid",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Geometri Euclid",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1_7A8mfYui6sCA3iZHfW1yEpKz6IQUXg4/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 19,
+    "judul": "UTS Geometri Transformasi",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Geometri Transformasi",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1mQHcEJ2HAGY1NM47d6aOE1KWzOem03_L/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 20,
+    "judul": "UTS Kontrol Optimal",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kontrol Optimal",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1sC4ZYmIBGD7NptBa2aKzQNGksL7W8-Cy/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 21,
+    "judul": "UTS Kapita Selekta Matematika Kombinatorika II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Kombinatorika II",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1AwWaoFj0Fl_REXdCphVMyuX0jroFxhd4/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 22,
+    "judul": "UTS Kapita Selekta Matematika Terapan II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Terapan II",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1ImK5ECrxqUyBcLkD5WF5vCn0N99qhb7r/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 23,
+    "judul": "UTS Kapita Selekta Statistika II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Statistika II",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1lLLExikAblK9upid-JfBsHMYtKaC4Js0/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 24,
+    "judul": "UTS Matematika Biologi",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Matematika Biologi",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1PNSRCC4P3JoOzymAAXq8_1i1YxPkCsHq/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 25,
+    "judul": "UTS Pengantar Artificial Intelligence",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Artificial Intelligence",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1Tgt39ys6Z5Aq7aDhbJGLqwIrKtt5EmO3/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 26,
+    "judul": "UTS Pengantar Matematika Keuangan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Matematika Keuangan",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1kPXmYuGEmULYs44zA_GDT-Ts44Aex48K/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 27,
+    "judul": "UTS Pengantar Topologi",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Topologi",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1f0yt4j9XFIqnZdWUlnbc4MWtZVZu8rrZ/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 28,
+    "judul": "UTS Pengantar Teori Graf",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Teori Graf",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1cvnHC7EmyEDjB9j8QW56iWU4GRepLKQr/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 29,
+    "judul": "UTS Sejarah Matematika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Sejarah Matematika",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1vgZBZyteuBs2ny34enXdAgf2vQ7Xk6DU/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 30,
+    "judul": "UTS Aktuaria",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aktuaria",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1Qz8k0D1gE_CC3e6N_WDv7zWSTLQ0zVAn/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 31,
+    "judul": "UTS Kapita Selekta Aljabar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Aljabar",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1-MqJdMMMPNeH49yolIZrpO0yRZbhs6zc/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 32,
+    "judul": "UTS Kapita Selekta Analisis",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Analisis",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1iDBEewc7fww_JgMuIzI0q_z5e1lmOypN/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 33,
+    "judul": "UTS Kombinatorika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kombinatorika",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1hJP63KOeB2Z3CFeiptebuM0pJb2KBhqA/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 34,
+    "judul": "UTS Kapita Selekta Matematika Kombinatorika I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Kombinatorika I",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1ltQgO4H2FrRIUXL2ahBOrfq2sohW7k3V/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 35,
+    "judul": "UTS Kapita Selekta Matematika Terapan I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Terapan I",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1VZBHSmLxyHjqAbYGbtAYESm_irhEg2PX/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 36,
+    "judul": "UTS Kapita Selekta Statistika I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Statistika I",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1DRH30uKz9otB2K-5BgG5uW7D51zjfDGR/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 37,
+    "judul": "UTS Pengantar Analisis Fungsional",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Analisis Fungsional",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1fcjFpsdBdcc2BSNs1ZS91OQlIUytfBrg/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 38,
+    "judul": "UTS Pengantar Aljabar Matriks",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Aljabar Matriks",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1CVR4wvNdpnIc6lO_r_GjXHi0wKBRT18D/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 39,
+    "judul": "UTS Pemrograman Berbasis Web",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pemrograman Berbasis Web",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1GBoEHedfrwrv28j-R392scpRHQvXmIUg/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 40,
+    "judul": "UTS Persoalan Nilai Batas",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Persoalan Nilai Batas",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1PrzHRc7ZhAmN3ffhTNQZ3u_zKVSsl9vf/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 41,
+    "judul": "UTS Pengantar Sistem Dinamik",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Sistem Dinamik",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/17wKEkzilv0Wd2_nSuX2jo7b9y8lBF8Yj/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 42,
+    "judul": "UTS Pengantar Teori Bilangan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Teori Bilangan",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1xpNVx11ONt4-iE7FRxnS3vWTPdK_Rts2/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 43,
+    "judul": "UTS Pengantar Teori Permainan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Teori Permainan",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1XKjOG_eeiNLE4hHIs6sbKnYDSi0GspC4/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 44,
+    "judul": "UTS Sains Data",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Sains Data",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1a2ecaQdcpLWoBkwcmnZoheLZ8ce9EQ76/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 45,
+    "judul": "UTS Sistem Kontrol Linier",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Statistika Komputasi",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1RsB-KthCdS7LACTh20YFDug98P8kId9t/view?usp=sharing",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 46,
+    "judul": "UAS Matematika Diskrit",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Matematika Diskrit",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1M_sdt88BVqbdgfgxvnEBVcvYYqBBOykc",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 47,
+    "judul": "UAS Aljabar Linier Elementer",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aljabar Linier Elementer",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=135TdWMkhc82z96amb9K8q99YT2jMu2x6",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 48,
+    "judul": "UAS Geometri Analitik",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Geometri Analitik",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1N4yjtnCFgB5r5JggJ0tivZBIndzMSkbo",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 49,
+    "judul": "UAS Kalkulus II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus II",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1kBXiFeEn3OPsKLvRn3n29tpiDicQOlxI",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 50,
+    "judul": "UAS Algoritma dan Pemrograman",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Algoritma dan Pemrograman",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1yWZRrJCHQDWESMxGf0g89yOkr5_vABaH/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 51,
+    "judul": "UAS Struktur Aljabar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Struktur Aljabar",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1bEdjY7ik1YtiUGEsFaywtOSa3Y40pORm",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 52,
+    "judul": "UAS Pengantar PDP",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar PDP",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=17bIUElCm2lSLGbzTLfQ28fFUsqH_QtNj",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 53,
+    "judul": "UAS Metode Numerik",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Metode Numerik",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=126v_1sarA7BWhTRLyeIwitTi8hi5opug",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 54,
+    "judul": "UAS Statistika Matematika I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Statistika Matematika I",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1erDvrUFI0ZVUp03YYvwQeXUvsmrNOe5n",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 55,
+    "judul": "UAS Fungsi Kompleks II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Fungsi Kompleks",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=181gih78-XamEFMSp5fw_lDyM58miIdYO",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 56,
+    "judul": "UAS Analisis Riil I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Riil I",
+    "kategori": "Wajib",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1YfwwcQM5wTR_zc3rp-y_ish3qlhDkapb",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 57,
+    "judul": "UAS Kapita Selekta Statistika I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Statistika I",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1hWIFFjBjZAAZCUBWV1lgdzT49jQ4yHOO",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 58,
+    "judul": "UTS Kapita Selekta Matematika Terapan 1",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Terapan 1",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1iKHoqNq1iCOJdbVcDVDN0o3IL5CtUC41",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 59,
+    "judul": "UAS Analisis Peubah Ganda",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Peubah Ganda",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=19tKInYOfiOGzxavbxQY8myITgnEGFrW0",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 60,
+    "judul": "UAS Pengantar Aljabar Matriks",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Aljabar Matriks",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1_7KdK_sn1BPh6jgjbJcVga4CcnvaMm0I",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 61,
+    "judul": "UAS Sistem Kontrol Linier",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Sistem Kontrol Linier",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1F4SYlbjvuvL7gdqRJRrOAmc-izt7Dzjn",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 62,
+    "judul": "UAS Kombinatorika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kombinatorika",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1LuNFL2Tz4SXh3H8eDsSKJJ5BNUgyp7pt",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 63,
+    "judul": "UAS Pengantar Analisis Fungsional",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Analisis Fungsional",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1BB_g0e1oThhXOox99HCFE-xjDA3mTXm7",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 64,
+    "judul": "UAS Analisis Regresi",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Regresi",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=18cBepi3tFHDZL0qGFttMUCJx_SVCKRsB",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 65,
+    "judul": "UAS Kapita Selekta Analisis",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Analisis",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1efpcDuWDT0AXvRkZqFRsH2QkGJU1Cud8",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 66,
+    "judul": "UAS Kapita Selekta Matematika Kombinatorika I",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kapita Selekta Matematika Kombinatorika I",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1LN0W0d3JCJFlyqkdBNGFscELt5YjRbvk",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 67,
+    "judul": "UAS Pengantar Teori Permainan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Teori Permainan",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1nKZ_WbEIkRKUwcKDy1c0bE8q2ko5sWUs",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 68,
+    "judul": "UAS Persoalan Nilai Batas",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Persoalan Nilai Batas",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=10D24zvYqclX70F--ej7ZDSB8sOLO1pkM",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 69,
+    "judul": "UAS Statistika Non Parametrik",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Statistika Non Parametrik",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=14-o8zJv3ptFpvRzUy9bLuMp3vKnTE9Cy",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 70,
+    "judul": "UAS Aktuaria",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aktuaria",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/open?id=1Qm8MN-7RDvsoB_ZA9ySzZgmsEeHab4sc",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    }
+  },
+  {
+    "id": 71,
+    "judul": "UAS Pengantar Teori Bilangan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Teori Bilangan",
+    "kategori": "Pilihan",
+    "tahun": "2023",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1D2yA5JUIW4f5KmxE2La6m2tNSboZB-74/view?usp=sharing",
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
