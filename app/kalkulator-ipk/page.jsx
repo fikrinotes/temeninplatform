@@ -10,7 +10,7 @@ const genId = () => Math.random().toString(36).slice(2, 9);
 const emptyRow = (id = null) => ({ id: id || genId(), mataKuliah: '', nilai: '', sks: '' });
 
 // LS Keys
-const LS_ROWS   = 'temenin_ip_rows';
+const LS_ROWS = 'temenin_ip_rows';
 const LS_CUMLAUD = 'temenin_cumlaud';
 
 export default function KalkulatorIPKPage() {
@@ -26,7 +26,7 @@ export default function KalkulatorIPKPage() {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) setRows(parsed);
       }
-    } catch {}
+    } catch { }
   }, []);
 
   // Save rows to localStorage on change
@@ -54,7 +54,7 @@ export default function KalkulatorIPKPage() {
       const nilai = parseFloat(row.nilai);
       if (!row.mataKuliah.trim() || isNaN(sks) || sks <= 0 || isNaN(nilai) || nilai < 0 || nilai > 4) continue;
       totalBobot += nilai * sks;
-      totalSks   += sks;
+      totalSks += sks;
     }
 
     if (totalSks === 0) {
@@ -88,7 +88,7 @@ export default function KalkulatorIPKPage() {
         const parsed = JSON.parse(saved);
         setCumLaud(prev => ({ ...prev, ...parsed }));
       }
-    } catch {}
+    } catch { }
   }, []);
 
   // Save cum laude data to localStorage
@@ -101,7 +101,7 @@ export default function KalkulatorIPKPage() {
   };
 
   const hitungCumLaud = () => {
-    const ipk   = parseFloat(cumLaud.ipkSementara);
+    const ipk = parseFloat(cumLaud.ipkSementara);
     const semLewati = parseInt(cumLaud.semesterLewati, 10);
 
     if (isNaN(ipk) || isNaN(semLewati)) {
@@ -129,8 +129,8 @@ export default function KalkulatorIPKPage() {
     const sisaSemester = 8 - semLewati;
     // Formula: (3.5 * 8 - ipk * semLewati) / sisaSemester
     const targetTotal = 3.5 * 8;
-    const sudahDapat  = ipk * semLewati;
-    const rataPerSem  = (targetTotal - sudahDapat) / sisaSemester;
+    const sudahDapat = ipk * semLewati;
+    const rataPerSem = (targetTotal - sudahDapat) / sisaSemester;
 
     if (rataPerSem > 4) {
       setCumLaudResult({ status: 'impossible', rataPerSem: rataPerSem.toFixed(2), sisaSemester });
@@ -150,13 +150,6 @@ export default function KalkulatorIPKPage() {
       {/* Page Header */}
       <div className={styles.pageHeader}>
         <div className={`container ${styles.pageHeaderInner}`}>
-          <div className="section-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="9" y="9" width="13" height="13" rx="2"/>
-              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-            </svg>
-            Tools Akademik
-          </div>
           <h1 className={styles.pageTitle}>Kalkulator IPK</h1>
           <p className={styles.pageDesc}>
             Hitung IP semester ini dan cek peluang cum laudemu — semuanya dalam satu halaman.
@@ -174,8 +167,8 @@ export default function KalkulatorIPKPage() {
             <div className={styles.sectionHead}>
               <div className={styles.sectionIcon} style={{ background: 'var(--primary-xlight)', color: 'var(--primary)' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="9" y="9" width="13" height="13" rx="2"/>
-                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                  <rect x="9" y="9" width="13" height="13" rx="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
                 </svg>
               </div>
               <div>
@@ -242,10 +235,10 @@ export default function KalkulatorIPKPage() {
                     title="Hapus baris"
                   >
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="3 6 5 6 21 6"/>
-                      <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
-                      <path d="M10 11v6M14 11v6"/>
-                      <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
+                      <polyline points="3 6 5 6 21 6" />
+                      <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+                      <path d="M10 11v6M14 11v6" />
+                      <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" />
                     </svg>
                   </button>
                 </div>
@@ -259,8 +252,8 @@ export default function KalkulatorIPKPage() {
               id="tambah-mata-kuliah"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="12" y1="5" x2="12" y2="19"/>
-                <line x1="5" y1="12" x2="19" y2="12"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
               </svg>
               Tambah Mata Kuliah
             </button>
@@ -273,8 +266,8 @@ export default function KalkulatorIPKPage() {
                 id="hitung-ip"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
-                  <polyline points="16 7 22 7 22 13"/>
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
                 </svg>
                 Hitung IP Semester
               </button>
@@ -284,8 +277,8 @@ export default function KalkulatorIPKPage() {
                 id="hapus-data-ip"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="3 6 5 6 21 6"/>
-                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+                  <polyline points="3 6 5 6 21 6" />
+                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
                 </svg>
                 Hapus Data
               </button>
@@ -305,9 +298,9 @@ export default function KalkulatorIPKPage() {
                     </p>
                     <p style={{ fontSize: '0.8125rem', marginTop: '0.5rem', opacity: 0.7 }}>
                       {ipResult.ip >= 3.7 ? '🌟 Luar biasa! Pertahankan terus!' :
-                       ipResult.ip >= 3.3 ? '👍 Bagus! Terus tingkatkan!' :
-                       ipResult.ip >= 3.0 ? '💪 Lumayan! Masih bisa lebih baik lagi.' :
-                       '📚 Yuk semangat belajar lebih giat!'}
+                        ipResult.ip >= 3.3 ? '👍 Bagus! Terus tingkatkan!' :
+                          ipResult.ip >= 3.0 ? '💪 Lumayan! Masih bisa lebih baik lagi.' :
+                            '📚 Yuk semangat belajar lebih giat!'}
                     </p>
                   </>
                 )}
@@ -324,7 +317,7 @@ export default function KalkulatorIPKPage() {
             <div className={styles.sectionHead}>
               <div className={styles.sectionIcon} style={{ background: '#FEF3C7', color: '#D97706' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                 </svg>
               </div>
               <div>
@@ -336,9 +329,9 @@ export default function KalkulatorIPKPage() {
             {/* Info box */}
             <div className={styles.infoBox}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, color: 'var(--primary)' }}>
-                <circle cx="12" cy="12" r="10"/>
-                <line x1="12" y1="8" x2="12" y2="12"/>
-                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
               </svg>
               <p>
                 Syarat cum laude: <strong>IPK ≥ 3.50</strong> dan lulus dalam maksimal <strong>8 semester (4 tahun)</strong>.
@@ -378,7 +371,7 @@ export default function KalkulatorIPKPage() {
                   onChange={e => updateCumLaud('semesterLewati', e.target.value)}
                 >
                   <option value="">-- Pilih Semester --</option>
-                  {[1,2,3,4,5,6,7].map(s => (
+                  {[1, 2, 3, 4, 5, 6, 7].map(s => (
                     <option key={s} value={s}>Semester {s}</option>
                   ))}
                 </select>
@@ -409,7 +402,7 @@ export default function KalkulatorIPKPage() {
                 id="hitung-cumlaud"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                 </svg>
                 Cek Peluang Cum Laude
               </button>
@@ -419,8 +412,8 @@ export default function KalkulatorIPKPage() {
                 id="hapus-data-cumlaud"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="3 6 5 6 21 6"/>
-                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+                  <polyline points="3 6 5 6 21 6" />
+                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
                 </svg>
                 Hapus Data
               </button>
@@ -429,10 +422,9 @@ export default function KalkulatorIPKPage() {
             {/* Cum Laude Result */}
             {cumLaudResult && (
               <div
-                className={`result-box ${
-                  cumLaudResult.error ? 'warning' :
-                  cumLaudResult.status === 'possible' || cumLaudResult.status === 'already_yes' ? 'success' : 'error'
-                }`}
+                className={`result-box ${cumLaudResult.error ? 'warning' :
+                    cumLaudResult.status === 'possible' || cumLaudResult.status === 'already_yes' ? 'success' : 'error'
+                  }`}
                 id="cumlaud-result"
               >
                 {cumLaudResult.error ? (

@@ -42,7 +42,7 @@ export default function Footer() {
           {/* Column 2 */}
           <div className={styles.linkCol}>
             <a
-              href="https://drive.google.com"
+              href="https://forms.gle/wBKWh6PhT8j2zc6s9"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
@@ -57,7 +57,7 @@ export default function Footer() {
             >
               Partner dengan Kami
             </a>
-            <a href="https://www.instagram.com/temeninplatform" className={styles.link}>Kontak</a>
+            <a href="mailto:platformdigitaltemenin@gmail.com" className={styles.link}>Kontak</a>
           </div>
 
           {/* Instagram */}
