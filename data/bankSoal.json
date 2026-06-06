@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "judul": "UTS Analisis Data",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Data",
@@ -12,10 +11,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 2,
     "judul": "UTS Fisika Dasar",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Fisika Dasar",
@@ -27,10 +26,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 3,
     "judul": "UTS Kalkulus I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kalkulus I",
@@ -42,10 +41,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 4,
     "judul": "UTS Kimia Dasar",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kimia Dasar",
@@ -57,10 +56,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 5,
     "judul": "UTS Pengantar Matematika",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Matematika",
@@ -72,10 +71,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 6,
     "judul": "UTS Fungsi Kompleks 1",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Fungsi Kompleks 1",
@@ -87,10 +86,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 7,
     "judul": "UTS Kalkulus III",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kalkulus III",
@@ -102,10 +101,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 8,
     "judul": "UTS Persamaan Diferensial Biasa",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Persamaan Diferensial Biasa",
@@ -117,10 +116,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 9,
     "judul": "UTS Program Linier",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Program Linier",
@@ -132,10 +131,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 10,
     "judul": "UTS Aljabar Linier",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Aljabar Linier",
@@ -147,10 +146,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 11,
     "judul": "UTS Kewirausahaan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kewirausahaan",
@@ -162,10 +161,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 12,
     "judul": "UTS Analisis Riil 2",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Riil 2",
@@ -177,10 +176,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 13,
     "judul": "UTS Pemodelan Matematika",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pemodelan Matematika",
@@ -192,10 +191,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 14,
     "judul": "UTS Statistika Matematika II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Statistika Matematika II",
@@ -207,10 +206,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 15,
     "judul": "UTS Algoritma & Struktur Data",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Algoritma & Struktur Data",
@@ -222,10 +221,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 16,
     "judul": "UTS Aplikasi Teori Graf",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Aplikasi Teori Graf",
@@ -237,10 +236,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 17,
     "judul": "UTS Pengantar Matematika Fuzzy",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Matematika Fuzzy",
@@ -252,10 +251,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 18,
     "judul": "UTS Geometri Euclid",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Geometri Euclid",
@@ -267,10 +266,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 19,
     "judul": "UTS Geometri Transformasi",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Geometri Transformasi",
@@ -282,10 +281,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 20,
     "judul": "UTS Kontrol Optimal",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kontrol Optimal",
@@ -297,10 +296,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 21,
     "judul": "UTS Kapita Selekta Matematika Kombinatorika II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Kombinatorika II",
@@ -312,10 +311,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 22,
     "judul": "UTS Kapita Selekta Matematika Terapan II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Terapan II",
@@ -327,10 +326,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 23,
     "judul": "UTS Kapita Selekta Statistika II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Statistika II",
@@ -342,10 +341,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 24,
     "judul": "UTS Matematika Biologi",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Matematika Biologi",
@@ -357,10 +356,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 25,
     "judul": "UTS Pengantar Artificial Intelligence",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Artificial Intelligence",
@@ -372,10 +371,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 26,
     "judul": "UTS Pengantar Matematika Keuangan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Matematika Keuangan",
@@ -387,10 +386,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 27,
     "judul": "UTS Pengantar Topologi",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Topologi",
@@ -402,10 +401,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 28,
     "judul": "UTS Pengantar Teori Graf",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Teori Graf",
@@ -417,10 +416,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 29,
     "judul": "UTS Sejarah Matematika",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Sejarah Matematika",
@@ -432,10 +431,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 30,
     "judul": "UTS Aktuaria",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Aktuaria",
@@ -447,10 +446,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 31,
     "judul": "UTS Kapita Selekta Aljabar",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Aljabar",
@@ -462,10 +461,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 32,
     "judul": "UTS Kapita Selekta Analisis",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Analisis",
@@ -477,10 +476,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 33,
     "judul": "UTS Kombinatorika",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kombinatorika",
@@ -492,10 +491,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 34,
     "judul": "UTS Kapita Selekta Matematika Kombinatorika I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Kombinatorika I",
@@ -507,10 +506,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 35,
     "judul": "UTS Kapita Selekta Matematika Terapan I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Terapan I",
@@ -522,10 +521,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 36,
     "judul": "UTS Kapita Selekta Statistika I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Statistika I",
@@ -537,10 +536,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 37,
     "judul": "UTS Pengantar Analisis Fungsional",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Analisis Fungsional",
@@ -552,10 +551,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 38,
     "judul": "UTS Pengantar Aljabar Matriks",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Aljabar Matriks",
@@ -567,10 +566,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 39,
     "judul": "UTS Pemrograman Berbasis Web",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pemrograman Berbasis Web",
@@ -582,10 +581,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 40,
     "judul": "UTS Persoalan Nilai Batas",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Persoalan Nilai Batas",
@@ -597,10 +596,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 41,
     "judul": "UTS Pengantar Sistem Dinamik",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Sistem Dinamik",
@@ -612,10 +611,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 42,
     "judul": "UTS Pengantar Teori Bilangan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Teori Bilangan",
@@ -627,10 +626,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 43,
     "judul": "UTS Pengantar Teori Permainan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Teori Permainan",
@@ -642,10 +641,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 44,
     "judul": "UTS Sains Data",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Sains Data",
@@ -657,10 +656,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 45,
     "judul": "UTS Sistem Kontrol Linier",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Statistika Komputasi",
@@ -672,10 +671,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 46,
     "judul": "UAS Matematika Diskrit",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Matematika Diskrit",
@@ -687,10 +686,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 47,
     "judul": "UAS Aljabar Linier Elementer",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Aljabar Linier Elementer",
@@ -702,10 +701,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 48,
     "judul": "UAS Geometri Analitik",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Geometri Analitik",
@@ -717,10 +716,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 49,
     "judul": "UAS Kalkulus II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kalkulus II",
@@ -732,10 +731,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 50,
     "judul": "UAS Algoritma dan Pemrograman",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Algoritma dan Pemrograman",
@@ -747,25 +746,25 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 51,
     "judul": "UAS Struktur Aljabar",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Struktur Aljabar",
     "kategori": "Wajib",
     "tahun": "2023",
-    "semester": "Ganjil",
+    "semester": "Genap",
     "jurusan": "Matematika",
     "linkSoal": "https://drive.google.com/open?id=1bEdjY7ik1YtiUGEsFaywtOSa3Y40pORm",
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 52,
     "judul": "UAS Pengantar PDP",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar PDP",
@@ -777,10 +776,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 53,
     "judul": "UAS Metode Numerik",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Metode Numerik",
@@ -792,10 +791,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 54,
     "judul": "UAS Statistika Matematika I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Statistika Matematika I",
@@ -807,10 +806,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 55,
     "judul": "UAS Fungsi Kompleks II",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Fungsi Kompleks",
@@ -822,10 +821,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 56,
     "judul": "UAS Analisis Riil I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Riil I",
@@ -837,10 +836,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 57,
     "judul": "UAS Kapita Selekta Statistika I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Statistika I",
@@ -852,10 +851,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 58,
     "judul": "UTS Kapita Selekta Matematika Terapan 1",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Terapan 1",
@@ -867,10 +866,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 59,
     "judul": "UAS Analisis Peubah Ganda",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Peubah Ganda",
@@ -882,10 +881,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 60,
     "judul": "UAS Pengantar Aljabar Matriks",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Aljabar Matriks",
@@ -897,10 +896,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 61,
     "judul": "UAS Sistem Kontrol Linier",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Sistem Kontrol Linier",
@@ -912,10 +911,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 62,
     "judul": "UAS Kombinatorika",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kombinatorika",
@@ -927,10 +926,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 63,
     "judul": "UAS Pengantar Analisis Fungsional",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Analisis Fungsional",
@@ -942,10 +941,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 64,
     "judul": "UAS Analisis Regresi",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Analisis Regresi",
@@ -957,10 +956,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 65,
     "judul": "UAS Kapita Selekta Analisis",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Analisis",
@@ -972,10 +971,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 66,
     "judul": "UAS Kapita Selekta Matematika Kombinatorika I",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Kapita Selekta Matematika Kombinatorika I",
@@ -987,10 +986,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 67,
     "judul": "UAS Pengantar Teori Permainan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Teori Permainan",
@@ -1002,10 +1001,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 68,
     "judul": "UAS Persoalan Nilai Batas",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Persoalan Nilai Batas",
@@ -1017,10 +1016,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 69,
     "judul": "UAS Statistika Non Parametrik",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Statistika Non Parametrik",
@@ -1032,10 +1031,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 70,
     "judul": "UAS Aktuaria",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Aktuaria",
@@ -1047,10 +1046,10 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
   },
   {
-    "id": 71,
     "judul": "UAS Pengantar Teori Bilangan",
     "universitas": "Universitas Andalas",
     "mataKuliah": "Pengantar Teori Bilangan",
@@ -1062,6 +1061,307 @@
     "kontributor": {
       "nama": "Himatika Unand",
       "instagram": "@himatikaunand"
-    }
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Pengantar Matematika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pengantar Matematika",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1ZlsXPk1HeuyWodhY5xpJen2hB0RaoAdX/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Analisis Data",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Data",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1kmxgaWfwCoeJ7kz_Oa7CcgYSv-4Xw2oe/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Bahasa Indonesia",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Bahasa Indonesia",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1WlbI169cOZtvPoSWlM52CrUd5OzBup5h/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Kalkulus 1",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus 1",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1hGyhSI9vgq-s0di99eeBObrNTadsKxr5/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Kimia Dasar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kimia Dasar",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/12JkWykTHR1_Dw98cPgkqzXG5ytufBLlJ/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Fisika Dasar",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Fisika Dasar",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1NfuK8QGTpY3OVtkESud_nbzZc7eaH823/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Kalkulus III",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus III",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1kKmIFIqqfH5mg-adNSPRb8VY48FJOIjO/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Persamaan Diferensial Biasa",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Persamaan Diferensial Biasa",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1NaYQbk8X-7cXVPbWMOCQwqAeSt_DnPLR/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Fungsi Kompleks 1",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Fungsi Kompleks 1",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1RlTgV20kCMC1UZlLbmUH3pAd6FmEXimE/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Program Linear",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Program Linear",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/19ktS5Tu1mOgYWyeD-pxgXIzCDJzDb3F_/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Aljabar Linier",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aljabar Linier",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1QuiRNEPOf35ZOmBJCNfHIsLbS8bKL132/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Kewirausahaan",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kewirausahaan",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1eAUmc00LwsMmdWg_NL6DFPCjvcB_yUbz/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Statistika Matematika II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Statistika Matematika II",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1gPCDiqS8PHdpfmvF8dtEAnKsTcFIe3qU/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Analisis Riil II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Analisis Riil II",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/163Mo47QdewmfXidHIBpWf9-EL2OYtGfM/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Pemodelan Matematika",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Pemodelan Matematika",
+    "kategori": "Wajib",
+    "tahun": "2022",
+    "semester": "Ganjil",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1YufnoBK8PPrQn-ELl9nHIFQOkj0b1a7g/view?usp=drive_web",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Algoritma dan Pemrograman",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Algoritma dan Pemrograman",
+    "kategori": "Wajib",
+    "tahun": "2025",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1DR4Ix7zBDntdiDZgBQD0x7UxHsiuOhFa/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Aljabar Linier Elementer",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Aljabar Linier Elementer",
+    "kategori": "Wajib",
+    "tahun": "2025",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1-EHo6zbUW8gjQI4We0DIVLcNdVQ39uhp/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Geometri Analitik",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Geometri Analitik",
+    "kategori": "Wajib",
+    "tahun": "2025",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1gwqLyPP6tZjRKwas2GggUWiInE_97dEm/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Kalkulus II",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Kalkulus II",
+    "kategori": "Wajib",
+    "tahun": "2025",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1wyxGVY0mwOTgM5HHZNwsREvdGtRu_Bbz/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
+  },
+  {
+    "judul": "UAS Matematika Diskrit",
+    "universitas": "Universitas Andalas",
+    "mataKuliah": "Matematika Diskrit",
+    "kategori": "Wajib",
+    "tahun": "2025",
+    "semester": "Genap",
+    "jurusan": "Matematika",
+    "linkSoal": "https://drive.google.com/file/d/1nB66-8Wg4FTuC_wipo2H7At6vHP7R3GC/view?usp=drive_link",
+    "kontributor": {
+      "nama": "Himatika Unand",
+      "instagram": "@himatikaunand"
+    },
+    "kunciJawaban": ""
   }
 ]

@@ -7,7 +7,7 @@ const categoryColors = {
 };
 
 export default function SoalCard({ soal }) {
-  const { judul, universitas, mataKuliah, kategori, tahun, semester, jurusan, linkSoal, kontributor } = soal;
+  const { judul, universitas, mataKuliah, kategori, tahun, semester, jurusan, linkSoal, kontributor, kunciJawaban } = soal;
 
   const judulLower = judul.toLowerCase();
   const isUTS = judulLower.includes('uts') || judulLower.includes('tengah');
@@ -73,20 +73,41 @@ export default function SoalCard({ soal }) {
             {kontributor.instagram}
           </a>
         </p>
-        <a
-          href={linkSoal}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`btn btn-primary btn-sm ${styles.lihatBtn}`}
-          id={`lihat-soal-${soal.id}`}
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-            <polyline points="15 3 21 3 21 9"/>
-            <line x1="10" y1="14" x2="21" y2="3"/>
-          </svg>
-          Lihat
-        </a>
+        <div className={styles.actions}>
+          {kunciJawaban ? (
+            <a
+              href={kunciJawaban}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`btn btn-outline btn-sm ${styles.kunciBtn}`}
+              id={`kunci-soal-${soal.id}`}
+            >
+              Kunci
+            </a>
+          ) : (
+            <button
+              disabled
+              className={`btn btn-outline btn-sm ${styles.kunciBtn}`}
+              id={`kunci-soal-${soal.id}`}
+            >
+              Kunci
+            </button>
+          )}
+          <a
+            href={linkSoal}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`btn btn-primary btn-sm ${styles.lihatBtn}`}
+            id={`lihat-soal-${soal.id}`}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            Lihat
+          </a>
+        </div>
       </div>
     </article>
   );

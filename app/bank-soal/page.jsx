@@ -1,39 +1,57 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import bankSoalData from '@/data/bankSoal.json';
-const universitas = [...new Set(bankSoalData.map(d => d.universitas))].sort();
-const tahunList = [...new Set(bankSoalData.map(d => d.tahun).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
+import bankSoalRaw from '@/data/bankSoal.json';
+
+const bankSoalData = bankSoalRaw.map((soal, index) => ({
+  id: soal.id || index + 1,
+  ...soal,
+  kunciJawaban: soal.kunciJawaban || ''
+}));
+
+const tahunList = [...new Set(bankSoalData.map(d => d.tahun).filter(Boolean))].sort((a, b) => parseInt(b) - parseInt(a));
 import SoalCard from '@/components/SoalCard';
 import styles from './page.module.css';
 
 export default function BankSoalPage() {
   const [search, setSearch] = useState('');
-  const [filterKategori, setFilterKategori] = useState('Semua');
-  const [filterUniv, setFilterUniv] = useState('Semua');
   const [filterTipe, setFilterTipe] = useState('Semua');
   const [filterTahun, setFilterTahun] = useState('Semua');
 
   const filtered = useMemo(() => {
-    return bankSoalData.filter(soal => {
-      const matchSearch = !search ||
-        soal.judul.toLowerCase().includes(search.toLowerCase()) ||
-        soal.mataKuliah.toLowerCase().includes(search.toLowerCase()) ||
-        soal.universitas.toLowerCase().includes(search.toLowerCase());
-      const matchKategori = filterKategori === 'Semua' || soal.kategori === filterKategori;
-      const matchUniv = filterUniv === 'Semua' || soal.universitas === filterUniv;
-      const matchTipe = filterTipe === 'Semua' ||
-        (filterTipe === 'UTS' && soal.judul.toLowerCase().includes('uts')) ||
-        (filterTipe === 'UAS' && soal.judul.toLowerCase().includes('uas'));
-      const matchTahun = filterTahun === 'Semua' || soal.tahun === filterTahun;
-      return matchSearch && matchKategori && matchUniv && matchTipe && matchTahun;
-    });
-  }, [search, filterKategori, filterUniv, filterTipe, filterTahun]);
+    const getExamTypeScore = (soal) => {
+      const judulLower = (soal.judul || '').toLowerCase();
+      if (judulLower.includes('uas') || judulLower.includes('akhir')) return 2;
+      if (judulLower.includes('uts') || judulLower.includes('tengah')) return 1;
+      return 0;
+    };
+
+    return bankSoalData
+      .filter(soal => {
+        const matchSearch = !search ||
+          soal.judul.toLowerCase().includes(search.toLowerCase()) ||
+          soal.mataKuliah.toLowerCase().includes(search.toLowerCase()) ||
+          soal.universitas.toLowerCase().includes(search.toLowerCase());
+        const matchTipe = filterTipe === 'Semua' ||
+          (filterTipe === 'UTS' && soal.judul.toLowerCase().includes('uts')) ||
+          (filterTipe === 'UAS' && soal.judul.toLowerCase().includes('uas'));
+        const matchTahun = filterTahun === 'Semua' || soal.tahun === filterTahun;
+        return matchSearch && matchTipe && matchTahun;
+      })
+      .sort((a, b) => {
+        const yearA = parseInt(a.tahun) || 0;
+        const yearB = parseInt(b.tahun) || 0;
+        if (yearB !== yearA) {
+          return yearB - yearA; // Newest year first
+        }
+        const scoreA = getExamTypeScore(a);
+        const scoreB = getExamTypeScore(b);
+        return scoreB - scoreA; // UAS above UTS
+      });
+  }, [search, filterTipe, filterTahun]);
 
   const resetFilters = () => {
     setSearch('');
-    setFilterKategori('Semua');
-    setFilterUniv('Semua');
     setFilterTipe('Semua');
     setFilterTahun('Semua');
   };
@@ -116,28 +134,7 @@ export default function BankSoalPage() {
 
             {/* Filters */}
             <div className={styles.filters}>
-              <select
-                className={`form-select ${styles.filterSelect}`}
-                value={filterKategori}
-                onChange={e => setFilterKategori(e.target.value)}
-                id="filter-kategori"
-              >
-                <option value="Semua">Semua Kategori</option>
-                <option value="Wajib">Wajib</option>
-                <option value="Pilihan">Pilihan</option>
-              </select>
 
-              <select
-                className={`form-select ${styles.filterSelect}`}
-                value={filterUniv}
-                onChange={e => setFilterUniv(e.target.value)}
-                id="filter-universitas"
-              >
-                <option value="Semua">Semua Universitas</option>
-                {universitas.map(u => (
-                  <option key={u} value={u}>{u}</option>
-                ))}
-              </select>
 
               <select
                 className={`form-select ${styles.filterSelect}`}
@@ -162,7 +159,7 @@ export default function BankSoalPage() {
                 ))}
               </select>
 
-              {(search || filterKategori !== 'Semua' || filterUniv !== 'Semua' || filterTipe !== 'Semua' || filterTahun !== 'Semua') && (
+              {(search || filterTipe !== 'Semua' || filterTahun !== 'Semua') && (
                 <button className="btn btn-outline btn-sm" onClick={resetFilters} id="reset-filter">
                   Reset Filter
                 </button>
